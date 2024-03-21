@@ -16,7 +16,7 @@
 	"plugins": ["@typescript-eslint", "prettier"],
 	"rules": {
 		"prettier/prettier": ["error"],
-		"indent": ["error", "tab"],
+		"indent": "off",
 		"linebreak-style": ["error", "unix"],
 		"quotes": ["error", "single"],
 		"semi": "off"

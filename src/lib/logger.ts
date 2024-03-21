@@ -4,9 +4,7 @@ const logFormat = format.combine(
 	format.timestamp({ format: 'ddd DD-MM-YYYY hh:mm:ss A' }),
 	format.printf(
 		(info) =>
-			`[${info.timestamp}] - [${info.level.toUpperCase()}] - ${
-				info.message
-			}`
+			`[${info.timestamp}] - [${info.level.toUpperCase()}] - ${info.message}`
 	)
 )
 
